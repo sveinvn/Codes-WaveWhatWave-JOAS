@@ -1,0 +1,238 @@
+ Plot()
+ {
+  Sequence(Hamremoen)
+  {
+   Boundary("Start 1");
+   Sequence("1")
+   {
+    R_Date("Tra-3273", 4885, 35);
+    R_Date("Tra-2363", 4860, 35);
+    R_Date("Tra-3269", 4850, 35);
+    R_Date("Tra-3270", 4790, 35);
+   };
+   Boundary("Transition 1/2");
+   Sequence("2")
+   {
+    R_Date("Skjoldnesmyra Hamremoen", 4656, 19);
+   };
+   Boundary("End 2");
+  };
+  Sequence(Skomrak)
+  {
+   Boundary("Start 3");
+   Sequence("3")
+   {
+    R_Date("Ua-46815", 5010, 40);
+    R_Date("Ua-45998", 4953, 35);
+    R_Date("Ua-46817", 4910, 40);
+    R_Date("Ua-45996", 4821, 34);
+   };
+   Boundary("Transition 3/4");
+   Sequence("4")
+   {
+    R_Date("Skjoldnesmyra Skomrak", 4656, 19);
+   };
+   Boundary("Transition 4/5");
+   Sequence("5")
+   {
+    R_Date("Ua-46001", 4146, 32);
+   };
+   Boundary("End 5");
+  };
+  Sequence(Slettaboe)
+  {
+   Boundary("Start 6");
+   Sequence("6")
+   {
+    R_Date("Skjoldnesmyra Slettaboe", 4656, 19);
+   };
+   Boundary("Transition 6/7");
+   Sequence("7")
+   {
+    R_Date("T-738", 4730, 100);
+    R_Date("T-1780", 4470, 120);
+   };
+   Boundary("End 7");
+  };
+  Sequence(Stav airp)
+  {
+   Boundary("Start 8");
+   Sequence("8")
+   {
+    R_Date("T-6891", 4930, 90);
+    R_Date("T-6601", 4790, 110);
+   };
+   Boundary("Transition 8/9");
+   Sequence("9")
+   {
+    R_Date("Skjoldnesmyra Stav_airp", 4692, 22);
+   };
+   Boundary("Transition 9/10");
+   Sequence("10")
+   {
+    R_Date("T-7043A", 4540, 90);
+    R_Date("T-7043B", 4360, 80);
+   };
+   Boundary("End 10");
+  };
+  Sequence(Austboe 12AB)
+  {
+   Boundary("Start 11");
+   Sequence("11")
+   {
+    R_Date("T-8443", 4860, 100);
+    R_Date("T-8438", 4760, 60);
+   };
+   Boundary("Transition 11/12");
+   Sequence("12")
+   {
+    R_Date("Skjoldnesmyra Austboe 12AB", 4692, 22);
+   };
+   Boundary("Transition 12/13");
+   Sequence("13")
+   {
+    R_Date("T-8439", 4540, 90);
+    R_Date("T-8444", 4500, 80);
+    R_Date("T-8366", 4300, 110);
+   };
+   Boundary("End 13");
+  };
+  Sequence(Nilsvika 4)
+  {
+   Boundary("Start 14");
+   Sequence("14")
+   {
+    R_Date("Beta-56843", 4860, 60);
+    R_Date("Beta-67783", 4620, 100);
+   };
+   Boundary("Transition 14/15");
+   Sequence("15")
+   {
+    R_Date("Skjoldnesmyra Nilsvika 4", 4692, 22);
+   };
+   Boundary("Transition 15/16");
+   Sequence("16")
+   {
+    R_Date("Beta-56846", 4300, 120);
+   };
+   Boundary("End 16");
+  };
+  Sequence(Ramsvikneset)
+  {
+   Boundary("Start 17");
+   Sequence("17")
+   {
+    R_Date("T-1903", 4960, 120);
+    R_Date("T-1904", 4920, 70);
+    R_Date("T-1908", 4910, 90);
+    R_Date("T-1906", 4770, 90);
+   };
+   Boundary("Transition 17/18");
+   Sequence("18")
+   {
+    R_Date("Skjoldnesmyra Ramsvikneset", 4692, 22);
+   };
+   Boundary("Transition 18/19");
+   Sequence("19")
+   {
+    R_Date("T-1910", 4590, 70);
+    R_Date("T-1909", 4170, 90);
+   };
+   Boundary("End 19");
+  };
+  Sequence(Kotedalen)
+  {
+   Boundary("Start 20");
+   Sequence("20")
+   {
+    R_Date("T-7336", 4900, 100);
+    R_Date("T-7509", 4960, 80);
+    R_Date("T-7337", 4920, 50);
+    R_Date("T-7052", 4860, 60);
+   };
+   Boundary("Transition 20/21");
+   Sequence("21")
+   {
+    R_Date("Skjoldnesmyra Kotedalen", 4692, 22);
+   };
+   Boundary("Transition 21/11");
+   Sequence("22")
+   {
+    R_Date("T-7390", 4760, 100);
+    R_Date("T-3264", 4690, 90);
+    R_Date("T-7508", 4690, 70);
+    R_Date("T-7531", 4670, 90);
+   };
+   Boundary("End 22");
+  };
+  Sequence(Havnen 17)
+  {
+   Boundary("Start 23");
+   Sequence("23")
+   {
+    R_Date("Beta-67994", 4820, 80);
+    R_Date("Beta-67986", 4755, 55);
+   };
+   Boundary("Transition 23/24");
+   Sequence("24")
+   {
+    R_Date("Skjoldnesmyra Havnen 17", 4692, 22);
+   };
+   Boundary("Transition 24/25");
+   Sequence("25")
+   {
+    R_Date("Beta-48164", 4660, 80);
+    R_Date("Beta-67992", 4620, 80);
+    R_Date("Beta-78324", 4560, 60);
+    R_Date("Beta-78319", 4480, 120);
+   };
+   Boundary("End 25");
+  };
+  Sequence(Haukedal 1)
+  {
+   Boundary("Start 26");
+   Sequence("26")
+   {
+    R_Date("Beta-82835", 5090, 70);
+    R_Date("Beta-82832", 5080, 60);
+   };
+   Boundary("Transition 26/27");
+   Sequence("27")
+   {
+    R_Date("Skjoldnesmyra Haukedal 1", 4692, 22);
+   };
+   Boundary("Transition 27/28");
+   Sequence("28")
+   {
+    R_Date("Beta-82831", 4540, 60);
+    R_Date("Beta-82830", 4370, 80);
+    R_Date("Beta-83490", 4350, 80);
+   };
+   Boundary("End 28");
+  };
+  Sequence(Korsmyra 1)
+  {
+   Boundary("Start 29");
+   Sequence("29")
+   {
+    R_Date("Tra-11182", 4895, 25);
+    R_Date("Tra-11170", 4885, 15);
+    R_Date("Tra-11189", 4885, 25);
+    R_Date("Tra-11179", 4870, 20);
+   };
+   Boundary("Transition 29/30");
+   Sequence("30")
+   {
+   R_Date("Skjoldnesmyra Korsmyra 1", 4692, 22);
+   };
+   Boundary("Transition 30/31");
+   Sequence("31")
+   {
+    R_Date("Tra-11178", 4675, 20);
+    R_Date("Tra-11184", 4675, 25);
+    R_Date("Tra-11193", 4670, 20);
+    R_Date("Tra-11180", 4670, 30);
+   };
+   Boundary("End 31");
+  };
+ };

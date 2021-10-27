@@ -1,0 +1,39 @@
+ Plot()
+ {
+  Sequence(Garth)
+  {
+   Boundary("Start 1");
+   Sequence("1")
+   {
+    R_Date("Tra-11179", 4870, 20);
+    R_Date("T-7052", 4860, 60);
+    R_Date("Ua-45996", 4821, 34);
+    R_Date("T-6601", 4790, 110);
+    R_Date("Tra-3270", 4790, 35);
+    R_Date("Beta-67986", 4755, 55);
+    R_Date("T-1906", 4770, 90);
+    R_Date("T-8438", 4760, 60);
+    R_Date("Beta-67783", 4620, 100);
+   };
+   Boundary("Transition 1/2");
+   Sequence("2")
+   {
+    R_Date("Skjoldnesmyra", 4656, 19);
+   };
+   Boundary("Transition 2/3");
+   Sequence("3")
+   {
+    R_Date("Beta-48164", 4660, 80);
+    R_Date("T-7390", 4760, 100);
+    R_Date("Tra-11178", 4675, 20);
+    R_Date("T-738", 4730, 100);
+    R_Date("T-1910", 4590, 70);
+    R_Date("Beta-82831", 4540, 60);
+    R_Date("T-7043A", 4540, 90);
+    R_Date("T-8439", 4540, 90);
+    R_Date("Beta-56846", 4300, 120);
+    R_Date("Ua-46001", 4146, 32);
+   };
+   Boundary("End 3");
+  };
+ };
